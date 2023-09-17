@@ -1,0 +1,27 @@
+venv
+.env
+/frontend/.env.local
+
+# Ignore Next.js build and cache directories
+/frontend/.next/
+/frontend/.cache/
+
+# Ignore Node.js modules in the frontend
+/frontend/node_modules/
+
+# Ignore build artifacts
+/frontend/out/
+/frontend/.nuxt/
+/frontend/dist/
+/frontend/.cache/
+/frontend/.server/
+
+# Ignore development server files
+/frontend/.server/
+/frontend/.netlify/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore system files
+Thumbs.db
